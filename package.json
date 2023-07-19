@@ -1,0 +1,20 @@
+{
+  "name": "shopify-theme-tailwindcss",
+  "version": "1.0.0",
+  "description": "Using TailwindCSS in a Shopify theme",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.min.css -m",
+    "tailwind-watch": "npx tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.min.css -w"
+  },
+  "keywords": [
+    "shopify",
+    "tailwindcss"
+  ],
+  "author": "Jared K Cornwall",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
